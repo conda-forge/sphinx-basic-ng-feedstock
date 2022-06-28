@@ -1,5 +1,5 @@
 {% set name = "sphinx-basic-ng" %}
-{% set version = "0.0.1a11" %}
+{% set version = "0.0.1a12" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/sphinx_basic_ng-{{ version }}.tar.gz
-  sha256: bf9a8fda0379c7d2ab51c9543f2b18e014b77fb295b49d64f3c1a910c863b34f
+  sha256: cffffb14914ddd26c94b1330df1d72dab5a42e220aaeb5953076a40b9c50e801
 
 build:
   noarch: python
